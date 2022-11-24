@@ -1,0 +1,70 @@
+import './App.css';
+import 4.jifi from './/4.jifi.jpg';
+import 1.jifi from './/1.jifi.jpg';
+import 8.jifi from './/8.jifi.jpg';
+import 9.jifi from './/9.jifi.jpg';
+import 3.jifi from './/3.jifi.jpg';
+import 10.jifi from './/10.jifi.jpg';
+
+function App() {
+    return (
+      <div>
+<head>
+<title>Single Page Design</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="navegate">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#images">Images</a></li>
+                </ul>
+            </div>
+        </nav>
+<main>
+<section id="home">
+<div class="image"> 
+    <img src={4.jifi} alt="4.jifi" width="550px"/>
+</div>
+<div class="home">
+    <h1>Home</h1>
+    <p>$$DELICIOUS  Cakes For You sweet bakery offers the best cakes and sweets$$</p>
+</div>
+</section>
+<section id="about">
+<div class="about">
+    <img src={1.jifi} alt="1.jifi" width="450px"/>
+    <h2>About</h2>
+</div>
+<div class="about-text">
+    <p>ONLY FRESH CAKES</p>
+    <h1>All of our products are made from scratch using family<br>
+    recipes with only the highest quality intredients.<br>
+    we bake and self fresh daily to ensure only the<br>
+    best products are sold to our customers</h1>
+</div>
+</section>
+<section id="images">
+<div class="pics">
+    <h3>Images</h3>
+    <p>What We Offer</p>
+    <ul>
+    <li><img src={8.jifi} alt="8.jifi" width="250px"/>Birthday Cakes</li>
+    <li><img src={9.jifi} alt="9.jifi" width="250px"/>Friendship Cakes</li>
+    <li><img src={10.jifi} alt="10.jifi" width="250px"/>Anniversary Cakes</li>
+    <li><img src={3.jifi} alt="3.jifi" width="250px"/>Choco Cakes</li>
+    </ul>
+</div>
+</section>
+</main>
+<footer>
+    Thanks for visiting us.
+</footer>
+</body>
+</div>
+);
+}
+
+export default App;
